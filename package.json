@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "node-sass": "^6.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "main": "index.html",
+  "scripts": {
+    "description": "Profile project",
+    "main": "index.html",
+    "lite": "lite-server",
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Will Homel",
+  "license": "ISC",
+  "name": "bgd-portfolio-project",
+  "version": "1.0.0",
+  "description": ""
+  
+}
+
