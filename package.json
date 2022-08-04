@@ -5,6 +5,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   },
@@ -14,13 +15,12 @@
     "main": "index.html",
     "lite": "lite-server",
     "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts"
   },
   "author": "Will Homel",
   "license": "ISC",
   "name": "bgd-portfolio-project",
   "version": "1.0.0",
   "description": ""
-  
 }
-

@@ -27,12 +27,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="nucampNavbar">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a class="nav-link" id="clickable" href="#"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i> About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Games</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Creators</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> News</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
+                        <li class="nav-item active"><a class="nav-link" id="clickable" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="aboutus.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Games</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Creators</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contactus.html">News</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contactus.html">Contact</a></li>
                     </ul>
                 </div> 
             </div>          
@@ -69,10 +69,10 @@
             </div>
         </div>
     </header>
-    <div class="container">
-    <div class="row align-items-center">
-        <div class="col align-items-center">
-            <img class="img img-fluid mx-auto d-block" padding="none" src="img/BGD_logo.png"/>
+    <div class="container mx-auto">
+    <div class="row">
+        <div class="col text-center">
+            <img class="img" padding="none" width="45%" src="img/BGD_logo.png"/>
         </div>
     </div>
     <div class="row row-content align-items-center">
@@ -86,27 +86,33 @@
     </div>
     </div>
     <footer class="site-footer">
-        <div>
-            <h5>Links</h5>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Games</a></li>
-                <li><a href="#">Creators</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-        <div>
-            <h5>Social</h5>
-            <a href="http://instagram.com/">Instagram</a>
-            <a href="http://facebook.com/">Facebook</a>
-            <a href="http://twitter.com/">Twitter</a>
-            <a href="http://youtube.com/">YouTube</a>
-        </div>
-        <div>
-            Tel: 1-206-555-1234<br />
-            Email: campsites@nucamp.co
+        <div class="container mx-auto">
+            <div class="row align-items-center">
+                <div class="col text-center mx-auto">
+                <a class="btn btn-social-icon" href="http://instagram.com/"><i class="fa fa-instagram fa-3x" id="icon"></i></a>
+                <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook fa-3x" id="icon"></i></a>
+                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-3x" id="icon"></i></a>
+                <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-3x" id="icon"></i></a>
+            </div>
+            </div>
+            <div class="row row-content">
+                <div class="col-4 col-sm-2 offset-1">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Games</a></li>
+                        <li><a href="#">Creators</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col col-sm-4 text-center ml-auto">
+                    <a roll="button" class="btn btn-link" href="tel:+5558675309"><i class="fa fa-phone"></i> 1-206-555-1234</a><br>
+            	    <a roll="button" class="btn btn-link" href="mailto:campsites@nucamp.com"><i class="fa fa-envelope-o"></i> will@bellinghamgamedev.com</a>
+                </div>
+            </div>
         </div>
     </footer>
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
