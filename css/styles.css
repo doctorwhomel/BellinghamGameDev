@@ -3,7 +3,9 @@ body {
   background-color: #252525; }
 
 h1, h2, h3 {
-  font-family: "Play", sans-serif; }
+  font-family: "Play", sans-serif;
+  color: white;
+}
 
 h2 {
   color: #0071BC; }
@@ -74,5 +76,3 @@ p{
 .label{
   color: white
 }
-
-
