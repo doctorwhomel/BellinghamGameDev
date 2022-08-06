@@ -34,7 +34,7 @@ ul {
   min-height: 200px; }
 
 .navbar{
-  background-color: rgba(0, 0, 0, 0.5);}
+  background-color: rgba(0, 0, 0, 0.75);}
 
 .tab-content {
   border: 1px solid #DDD;
@@ -61,6 +61,18 @@ p{
 
 #icon {
   color:#33BF7F
+}
+
+.card{
+  background-color: rgb(27, 27, 27)
+}
+
+.card-header{
+  background-color: #3f3f3f;
+}
+
+.label{
+  color: white
 }
 
 
